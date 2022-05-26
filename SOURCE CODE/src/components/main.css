@@ -1,0 +1,12 @@
+  .person *{
+    transition: .5s;
+  }
+  .person *:hover{
+    font-size: 40px;
+  }
+  .person .ha:hover{
+    font-size: 1.50rem;
+  }
+  .links *{
+    transition: .4s;
+  }
