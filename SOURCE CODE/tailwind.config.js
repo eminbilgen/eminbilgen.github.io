@@ -9,9 +9,9 @@ module.exports = {
           950: '#EEEEEE',
           900: '#1E1E1E',
           850: '#F5F5F5',
-          300: '#dadada',
+          300: '#f2f2f2',
           200: '#CCCCCC',
-          100: '#E6E6E6',
+          100: '#f9f9f9',
         },
       }
     },

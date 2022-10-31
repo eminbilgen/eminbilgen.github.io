@@ -40,7 +40,7 @@
   width: 100%;
   transform: scaleX(0);
   height: 5px;
-  bottom: 0;
+  bottom: -15%;
   left: 0;
   background-color: #ffffff;
   transform-origin: bottom right;
@@ -49,7 +49,7 @@
 .menu-text:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  margin-top: 2px;
+  margin-top: 4px;
 
 }
 #menubutton{
@@ -62,14 +62,12 @@
   cursor: pointer;
 }
 .menu{
-  transition: 1s;
+  transition: 1.5s;
   overflow: hidden;
-  width: 0;
-  height: 0;
-  opacity: 1;
+  width: 100%;
+  height: 100%;
 }
 .change .menu{
+  overflow: visible;
   left: 0;
-  width: 100vw;
-  height: 100vh;
 }
