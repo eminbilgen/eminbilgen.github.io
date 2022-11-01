@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter,
+    HashRouter,
     Routes,
     Route,
 } from 'react-router-dom';
@@ -12,14 +12,14 @@ import Contact from './Contact.js'
 
 const AppRouter = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
             <Route path='/' element={<Main />}/>
             <Route path='/about' element={<About />}/>
             <Route path='/contact' element={<Contact />}/>
             <Route path='/projects' element={<Projects />}/>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
