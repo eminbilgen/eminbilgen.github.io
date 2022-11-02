@@ -24,13 +24,13 @@ function App() {
                         <a href="/" className="inline-block relative menu-text text-white text-2xl font-bold placeholder:text-center" onClick={ToggleClass}>Home</a>
                       </li>
                       <li className="flex flex-col justify-center items-center h-16">
-                        <a href="/about" className="inline-block relative menu-text text-white text-2xl font-bold text-center" onClick={ToggleClass}>About</a>
+                        <a href="/#/about" className="inline-block relative menu-text text-white text-2xl font-bold text-center" onClick={ToggleClass}>About</a>
                       </li>
                       <li className="flex flex-col justify-center items-center h-16">
-                        <a href="/projects" className="inline-block relative menu-text text-white text-2xl font-bold text-center" onClick={ToggleClass}>Projects</a>
+                        <a href="/#/projects" className="inline-block relative menu-text text-white text-2xl font-bold text-center" onClick={ToggleClass}>Projects</a>
                       </li>
                       <li className="flex flex-col justify-center items-center h-16">
-                        <a href="/contact" className="inline-block relative menu-text text-white text-2xl font-bold text-center" onClick={ToggleClass}>Contact</a>
+                        <a href="/#/contact" className="inline-block relative menu-text text-white text-2xl font-bold text-center" onClick={ToggleClass}>Contact</a>
                       </li>
                   </ul>
               </menu>

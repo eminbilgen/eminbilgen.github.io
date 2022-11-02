@@ -12,7 +12,7 @@ import Contact from './Contact.js'
 
 const AppRouter = () => {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route path='/' element={<Main />}/>
             <Route path='/about' element={<About />}/>
