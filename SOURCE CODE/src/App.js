@@ -1,15 +1,18 @@
 import './App.css';
 import React, { useState } from 'react';
 
+//import router extension
 import AppRouter from './components/AppRouter';
 
 function App() {
-  //its checks for the menu button animation
+  //state for menu
   const [isActive, setActive] = useState("false");
   const ToggleClass = () => {
     setActive(!isActive); 
   };
+
   return(
+    //menu button and components
     <div className="App absolute w-screen h-screen ">
       <div onClick={ToggleClass} id="menubutton" className={isActive ? "null" : "change"}>
           <div className="bar1 bg-black z-2"></div>

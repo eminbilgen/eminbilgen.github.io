@@ -10,3 +10,25 @@
   .links *{
     transition: .4s;
   }
+  .bigbox:hover{
+    transform: scale(1.05);
+  }
+  .bigbox:hover .gotext{
+    display: unset;
+    filter:brightness(1.5);
+  }
+  .bigbox:hover .boxx{
+    filter: blur(1px) brightness(.5);
+
+  }
+  .yazis{
+    background: #eaeaea;
+      background: radial-gradient(
+        circle,
+        #ffffff 18%,
+        #ededed 50%,
+        #eaeaea 100%
+      );
+      background-position: 44% 94%;
+      background-size: 100% 250%;
+  }
