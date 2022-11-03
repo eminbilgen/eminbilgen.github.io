@@ -28,7 +28,7 @@ function Contact() {
               disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
               invalid:border-pink-500 invalid:text-pink-600
               focus:invalid:border-pink-500 focus:invalid:ring-pink-500
-            " name="email"/>
+            " name="email" required/>
           </label>
           <label className="block flex flex-col items-start">
             <span className="block text-sm font-medium text-slate-700">Name:</span>
@@ -37,7 +37,7 @@ function Contact() {
               disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
               invalid:border-pink-500 invalid:text-pink-600
               focus:invalid:border-pink-500 focus:invalid:ring-pink-500
-            "/>
+            " required/>
           </label>
           <label className="block flex flex-col items-start">
             <span className="block text-sm font-medium text-slate-700">Message:</span>
@@ -46,7 +46,7 @@ function Contact() {
               disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
               invalid:border-pink-500 invalid:text-pink-600
               focus:invalid:border-pink-500 focus:invalid:ring-pink-500
-            "/>
+            " required/>
           </label>
           <input type='submit' value="Send" className='bg-gri-300 hover:bg-gri-200 border-2 border-black text-black font-bold rounded w-[11.5rem] h-12 flex justify-center items-center' />
         </form>
