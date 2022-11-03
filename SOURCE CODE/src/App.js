@@ -13,7 +13,7 @@ function App() {
 
   return(
     //menu button and components
-    <div className="App absolute w-screen h-screen ">
+    <div className="App absolute w-screen h-screen flex">
       <div onClick={ToggleClass} id="menubutton" className={isActive ? "null" : "change"}>
           <div className="bar1 bg-black z-2"></div>
           <div className="bar2 bg-black z-2"></div>
