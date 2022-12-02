@@ -4,6 +4,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'smph': { 'raw': '(max-height: 700px)'},
+        'tallph': { 'raw': '(min-height: 700px)'},
+        'bigph': { 'raw': '(min-height: 760px)' },
+        'tablet': { 'raw': '(min-width: 768px)' },
+        'laptop': { 'raw': '(min-height: 791px)', 'raw': '(min-width:1024px)' },
+      },
       colors: {
         gri: {
           950: '#EEEEEE',

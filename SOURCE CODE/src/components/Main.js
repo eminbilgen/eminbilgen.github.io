@@ -13,7 +13,7 @@ import linkedin from '../images/linkedin.svg'
 function Main() {
     return (
     <div className="main w-screen h-screen flex flex-col justify-center items-center">
-        <div className='normal w-full h-screen flex flex-col justify-center items-center'>
+        <div className='normal w-screen h-full flex flex-col justify-center items-center'>
             <div className='person w-96 h-96 flex flex-col justify-center items-center'>
                 <h1 className='flex text-4xl font-bold h-20'>EMİN BİLGEN</h1>
                 <h1 className='flex ha text-xl font-semibold h-20 '>WEB DEVELOPER</h1>

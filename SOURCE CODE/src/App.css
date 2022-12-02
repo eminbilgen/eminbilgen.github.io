@@ -64,10 +64,21 @@
 .menu{
   transition: 1.5s;
   overflow: hidden;
-  width: 100%;
+  width: 0%;
   height: 100%;
 }
 .change .menu{
   overflow: visible;
-  left: 0;
+  transition: 1.5s;
+  display: flex;
+  width: 100%;
+}
+.menu a{
+  transition: 1.5s;
+  overflow: hidden;
+  color: white;
+}
+.change .menu li *{
+  overflow: visible;
+  transition: 3.5s;
 }
