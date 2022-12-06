@@ -25,9 +25,11 @@ function App() {
     if (theme === 'light') {
       document.body.classList.remove('dark');
       localStorage.setItem('theme', 'light');
+      document.getElementById('htmll').style.backgroundColor = 'white';
     } else {
       document.body.classList.add('dark');
       localStorage.setItem('theme', 'dark');
+      document.getElementById('htmll').style.backgroundColor = '#191919';
     }
   }, [theme]);
 

@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {
     HashRouter,
     Routes,
     Route,
-    Router,
 } from 'react-router-dom';
 
 // page components
