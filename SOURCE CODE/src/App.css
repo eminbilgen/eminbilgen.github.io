@@ -33,6 +33,15 @@
   transform: rotate(45deg) translate(-8px, -8px) ;
   background-color: #ffffff;
 }
+.dark .change .bar1{
+  background-color: #000000;
+}
+.dark .change .bar2{
+  background-color: #000000;
+}
+.dark .change .bar3{
+  background-color: #000000;
+}
 
 .menu-text:after {
   content: '';
@@ -45,6 +54,9 @@
   background-color: #ffffff;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
+}
+.dark .menu-text:after {
+  background-color: #121212;
 }
 .menu-text:hover:after {
   transform: scaleX(1);
@@ -76,9 +88,20 @@
 .menu a{
   transition: 1.5s;
   overflow: hidden;
-  color: white;
 }
 .change .menu li *{
   overflow: visible;
   transition: 3.5s;
+}
+.theme-brd{
+  border: 3px solid black;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

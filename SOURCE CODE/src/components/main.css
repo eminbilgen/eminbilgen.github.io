@@ -8,7 +8,7 @@
     font-size: 1.50rem;
   }
   .links *{
-    transition: .4s;
+    transition: .3s;
   }
   .bigbox:hover{
     transform: scale(1.05);
@@ -28,6 +28,17 @@
         #ffffff 18%,
         #ededed 50%,
         #eaeaea 100%
+      );
+      background-position: 44% 94%;
+      background-size: 100% 250%;
+  }
+  .dark .yazis{
+    background: #1a1a1a;
+      background: radial-gradient(
+        circle,
+        #1f1f1f 18%,
+        #1a1a1a 50%,
+        #1f1f1f 100%
       );
       background-position: 44% 94%;
       background-size: 100% 250%;
