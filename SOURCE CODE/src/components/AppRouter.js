@@ -9,7 +9,6 @@ import {
 import Main from './Main.js'
 import About from './About.js'
 import Projects from './Projects.js'
-import Contact from './Contact.js'
 import NotFound from './NotFound.js'
 const AppRouter = () => {
   return (
@@ -20,7 +19,6 @@ const AppRouter = () => {
             <Route path='/' element={<Main />}/>
             <Route path='/main' element={<Main />}/>
             <Route path='/about' element={<About />}/>
-            <Route path='/contact' element={<Contact />}/>
             <Route path='/projects' element={<Projects />} />
         </Routes>
     </HashRouter>

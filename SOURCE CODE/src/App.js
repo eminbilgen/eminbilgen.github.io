@@ -67,9 +67,6 @@ function App() {
                       <li className="flex flex-col justify-center items-center h-16">
                         <a href="/#/projects" className="inline-block relative menu-text text-white dark:text-black text-2xl font-bold text-center" onClick={ToggleClass}>Projects</a>
                       </li>
-                      <li className="flex flex-col justify-center items-center h-16">
-                        <a href="/#/contact" className="inline-block relative menu-text text-white dark:text-black text-2xl font-bold text-center" onClick={ToggleClass}>Contact</a>
-                      </li>
                   </ul>
               </menu>
           </div>
