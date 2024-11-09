@@ -39,7 +39,7 @@ function App() {
 
   return(
     //menu button and components
-    <div className="App absolute w-screen h-screen flex flex-grow md:flex-grow-0 bg-white dark:bg-[#191919]">
+    <div className="App absolute w-screen min-h-screen flex flex-grow md:flex-grow-0 bg-white dark:bg-[#191919]">
       <div className='theme-brd dark:border-white'>
       <DarkModeSwitch
         checked={checked}
