@@ -6,8 +6,8 @@ function About() {
       <h1 className='about-baslik text-4xl font-bold text-underline mb-10 underline underline-offset-1 hover:translate-y-2 hover:scale-95 dark:text-white'>Who am I?</h1>
       <div className=' bg-gri-100 dark:bg-[#292929]  w-10/12 h-4/6 rounded-md flex items-center justify-center hover:bg-gri-300 dark:hover:bg-[#242424] md:h-2/4'>
         <p className='text-xl text-left  font-bold text-gray-800 dark:text-white w-3/4 text-base sm:text-xl md:text-2xl'>
-          I am a front-end developer with a passion for developing web applications. I'm currently working as a front-end developer at my own, which might sound a bit self-employed. I have a passion for learning new things and I am always looking for new ways to improve my skills. I am now 17 years old and I am from a small city called by Kırıkkale in Turkey . After two years of high school, my next focus will be to work abroad as a full-stack developer.
-        </p>
+        In this sector, which I started with the love of software from my childhood, I have been practicing and adding my knowledge since 2019. I am currently designing responsive websites integrated with Rest APIs using HTML, CSS, JS, ReactJS and Tailwind CSS. In addition, I write Rest APIs using PHP and SQL, and I take care of the security in these APIs thanks to my small cyber security background.
+        I graduated from high school and I am preparing for the ACT exam. I am actively working on a web project.        </p>
       </div>
     </div>
   )
