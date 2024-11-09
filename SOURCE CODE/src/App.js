@@ -55,7 +55,7 @@ function App() {
           <div className="bar3 bg-black z-2 dark:bg-white"></div>
       </div>
       <div className={isActive ? "null" : "change"} id="app">
-          <div className="menu w-full z-20 left-full h-full flex flex-col justify-center items-center absolute left-0 top-0 opacity-90 bg-black dark:bg-white ">
+          <div className="menu w-full z-20 left-full h-screen flex flex-col justify-center items-center fixed left-0 top-0 opacity-90 bg-black dark:bg-white ">
               <menu className='flex flex-col justify-around items-center h-5/6'>
                   <ul className="flex flex-col justify-center items-center">
                       <li className="flex flex-col justify-center items-center h-16">

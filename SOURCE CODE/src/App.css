@@ -77,7 +77,6 @@
   transition: 1.5s;
   overflow: hidden;
   width: 0%;
-  height: 100%;
 }
 .change .menu{
   overflow: visible;
